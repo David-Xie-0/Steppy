@@ -13,7 +13,6 @@ const int enPin6 = 13;
 const int fanPin = A0;
 
 unsigned long M1Interval, M2Interval, M3Interval, M4Interval, M5Interval, M6Interval;
-// pre-divided intervals used in the loop — updated whenever interval or microstep changes
 unsigned long M1Step, M2Step, M3Step, M4Step, M5Step, M6Step;
 
 String incomingCommand = "";
@@ -80,7 +79,6 @@ void handleCommand(const char* command) {
 
   if (motor == NULL || value == NULL) return;
 
-  // microstep command — update step variable immediately
   if (isAllDigits(value)) {
     unsigned long ms = atol(value);
     if (ms < 1) ms = 1;
