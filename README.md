@@ -12,16 +12,18 @@ The speed controler should be uploaded to A1 on the PCB, the speed control takes
 The step controlelr should be uploaded to A2 on the PCB. Lower frequencies on the stepper motors tend to be much louder than higher ones. To counteract this, lower frequencies are assigned a finer and finer substepping threshold making the sound smoother and overall quieter than the supposed melody.
 
 # Schematic
-This project uses 12V NEMA 17 Stepper motors, 2 Arduino Nanos and 6 DRV8825 Motor drivers with local 100µf capicitors backed up by 4 larger 330µf Capitors at the power line, The Schematic is available to download in the form of Kicad Files.
+This project uses 12V NEMA 17 Stepper motors, 2 Arduino Nanos and 6 DRV8825 Motor drivers with local 100µf capicitors backed up by 4 larger 330µf Capitors at the power line, The Schematic is available to [download](https://github.com/David-Xie-0/Steppy/blob/main/Steppy%20-%20PCB.kicad_pro) in the form of Kicad Files.
 
 <img width="2078" height="1500" alt="image" src="https://github.com/user-attachments/assets/db51a3de-dcf9-423f-ba52-93007a456bdb" />
 
 # PCB
-This custom designed PCB is a 4 layer PCB manufactured by JLCPCB, the PCB files are [available in the form of Kicad files.](https://github.com/David-Xie-0/Steppy/blob/main/Steppy%20-%20PCB.kicad_sch)
+This custom designed PCB is a 4 layer PCB manufactured by JLCPCB, the PCB files are available to [download](https://github.com/David-Xie-0/Steppy/blob/main/Steppy%20-%20PCB.kicad_sch) in the form of Kicad files.
 
 | | |
 |---|---|
 | <img width="350" height="650" alt="image" src="https://github.com/user-attachments/assets/75027605-4e82-44ac-99fe-882f73ad44d9" /> | <img width="350" height="650" alt="IMG_2329" src="https://github.com/user-attachments/assets/7a90fd75-043b-4498-aaac-df5c1a4d8439" /> |
+
+Expect more information to be added soon.
 
 
 
