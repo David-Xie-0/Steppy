@@ -17,7 +17,7 @@ This project uses 12V NEMA 17 Stepper motors, 2 Arduino Nanos and 6 DRV8825 Moto
 <img width="2078" height="1500" alt="image" src="https://github.com/user-attachments/assets/db51a3de-dcf9-423f-ba52-93007a456bdb" />
 
 # PCB
-This custom designed PCB is a 4 layer PCB manufactured by JLCPCB, the PCB files are available to [download](https://github.com/David-Xie-0/Steppy/blob/main/Steppy%20-%20PCB.kicad_sch) in the form of Kicad files.
+The PCB used is a custom 4 layer PCB manufactured by JLCPCB, the PCB files are available to [download](https://github.com/David-Xie-0/Steppy/blob/main/Steppy%20-%20PCB.kicad_sch) in the form of Kicad files.
 
 | | |
 |---|---|
