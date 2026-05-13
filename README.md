@@ -6,10 +6,10 @@ The backend is responsible for executing the majority of the calculation, it is 
 The backen needs to be executed in the same directory as a folder named "Songs" which you will store all your .midi files
 
 # Speed Controler 
-The speed controler should be uploaded to A1 on the PCB, the speed control takes commands in from the serial port in the form of M{Motor #}:{Note Letter}{Note #}, and sets the corresponding frequency to the correct motor, It will step each stepper motor as soon as the duration of their note frequency has passed.
+The speed controler should be uploaded to A1 on the PCB (Arduino nano 1), the speed control takes commands in from the serial port in the form of M{Motor #}:{Note Letter}{Note #}, and sets the corresponding frequency to the correct motor, It will step each stepper motor as soon as the duration of their note frequency has passed.
 
 # Step Controller
-The step controlelr should be uploaded to A2 on the PCB. Lower frequencies on the stepper motors tend to be much louder than higher ones. To counteract this, lower frequencies are assigned a finer and finer substepping threshold making the sound smoother and overall quieter than the supposed melody.
+The step controller should be uploaded to A2 on the PCB (Arduino nano 2). Lower frequencies on the stepper motors tend to be much louder than higher ones. To counteract this, lower frequencies are assigned a finer and finer substepping threshold making the sound smoother and overall quieter than the supposed melody.
 
 # Schematic
 This project uses 12V NEMA 17 Stepper motors, 2 Arduino Nanos and 6 DRV8825 Motor drivers with local 100µf capicitors backed up by 4 larger 330µf Capitors at the power line, The Schematic is available to [download](https://github.com/David-Xie-0/Steppy/blob/main/Steppy%20-%20PCB.kicad_pro) in the form of Kicad Files.
